@@ -8,5 +8,5 @@ RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
 RUN mkdir /droplink-bot
 WORKDIR /droplink-bot
-COPY python3 bot.py
-CMD [python3 bot.py]
+COPY bot.py
+CMD [bot.py]
